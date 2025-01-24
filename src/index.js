@@ -43,3 +43,7 @@ fetch('http://localhost:3000/foods')
 })
 
 // write your code here
+const fruits = ['apple', 'banana', 'cherry']
+for(let index = 1; index < fruits.length; index++){
+    console.log(fruits(index))
+}
